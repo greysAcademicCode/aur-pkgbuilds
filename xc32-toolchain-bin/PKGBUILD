@@ -19,7 +19,7 @@ else
 fi
 provides=(mplabxc${_number_of_bits})
 conflicts=(microchip-mplabxc${_number_of_bits}-bin)
-makedepends=(sdx tcl) 
+makedepends=(sdx tcl tcl-vfs) 
 options=(!strip docs libtool emptydirs !zipman staticlibs !upx)
 source=("installerBlobFromMicrochip::http://ww1.microchip.com/downloads/en/DeviceDoc/xc${_number_of_bits}-v$pkgver-full-install-linux-installer.run" liblzmadec0.2.so)
 noextract=(installerBlobFromMicrochip liblzmadec0.2.so)
