@@ -1,2 +1,2 @@
 # aur-pkgbuilds
-A collection PKGBUILDs and associated files for the Arch Linux packages I maintain in the AUR
+I use this repo to keep track of [the packages I maintain in the AUR](https://aur.archlinux.org/packages/?SeB=m&K=greyltc) (Arch User Repository).
