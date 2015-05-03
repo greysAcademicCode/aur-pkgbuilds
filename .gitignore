@@ -2,3 +2,6 @@
 .AURINFO
 *.tar.gz
 *.zip
+*/pkg/*
+*/src/*
+*.tar.xz
