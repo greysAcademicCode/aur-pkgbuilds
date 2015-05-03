@@ -1,2 +1,4 @@
 .SRCINFO
 .AURINFO
+*.tar.gz
+*.zip
