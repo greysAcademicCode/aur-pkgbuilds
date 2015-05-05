@@ -1,14 +1,14 @@
 
 pkgname=wingide
 pkgver=5.1.4
-pkgrel=1
+pkgrel=2
 _pkgrel=1
 pkgdesc="Wing IDE Professional is the full-featured Python IDE for professional programmers."
 url="http://www.wingware.com"
 license=('custom')
 arch=('i686' 'x86_64')
-[ "$CARCH" = 'i686' ] && _pkgarch==i386
-[ "$CARCH" = 'x86_64' ] && _pkgarch==x86_64
+[ "$CARCH" = 'i686' ] && _pkgarch=i386
+[ "$CARCH" = 'x86_64' ] && _pkgarch=x86_64
 source_x86_64=("http://wingware.com/pub/$pkgname/$pkgver/$pkgname-$pkgver-$_pkgrel-x86_64-linux.tar.gz")
 source_i686=("http://wingware.com/pub/$pkgname/$pkgver/$pkgname-$pkgver-$_pkgrel-i386-linux.tar.gz")
 depends=('hicolor-icon-theme' 'libpng12' 'python2' 'xdg-utils')
