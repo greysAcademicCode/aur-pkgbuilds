@@ -1,6 +1,6 @@
 pkgname=android-google-play-services
-pkgver=r24
-_build=7327000
+pkgver=r25
+_build=7571000
 pkgrel=1
 pkgdesc='Google Play Services client library and sample code'
 arch=('any')
